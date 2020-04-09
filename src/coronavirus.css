@@ -1,0 +1,3731 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Open Sans', serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+}
+
+@font-face {
+  font-family: montserrat_extralight;
+  src: url(assets/Montserrat-ExtraLight.otf);
+}
+
+@font-face {
+  font-family: montserrat_bold;
+  src: url(assets/Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: montserratbold_x6c403483;
+  src: url(assets/Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: montserratbold_xfc513cc6;
+  src: url(assets/Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: montserratbold_x6ee71be5;
+  src: url(assets/Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: montserratbold_x9d716a9d;
+  src: url(assets/Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: montserratbold_x7d235513;
+  src: url(assets/Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: montserratbold_x31bb6a88;
+  src: url(assets/Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: montserratbold_x04615640;
+  src: url(assets/Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: montserratbold_xc0312395;
+  src: url(assets/Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: montserrat_regular;
+  src: url(assets/Montserrat-Regular.otf);
+}
+
+@font-face {
+  font-family: montserratblack_x82a8d65d;
+  src: url(assets/Montserrat-Black.otf);
+}
+
+@font-face {
+  font-family: montserratblack_x80b07772;
+  src: url(assets/Montserrat-Black.otf);
+}
+
+@font-face {
+  font-family: montserratblack_x0727ae0a;
+  src: url(assets/Montserrat-Black.otf);
+}
+
+@font-face {
+  font-family: montserratblack_x8e1c2689;
+  src: url(assets/Montserrat-Black.otf);
+}
+
+@font-face {
+  font-family: montserratbold_xf49e0954;
+  src: url(assets/Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: montserratbold_x0580c8cf;
+  src: url(assets/Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: montserratbold_xc9c339b4;
+  src: url(assets/Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: montserratbold_xbab02247;
+  src: url(assets/Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: montserratbold_x48db1bce;
+  src: url(assets/Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: montserratbold_x78c41f5c;
+  src: url(assets/Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: montserratbold_x3a2767d0;
+  src: url(assets/Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: montserratbold_x57051d14;
+  src: url(assets/Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: montserratbold_xf846ef89;
+  src: url(assets/Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: montserratbold_xcf4fe80c;
+  src: url(assets/Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: montserratbold_x21593b06;
+  src: url(assets/Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: montserratbold_xeb3b1751;
+  src: url(assets/Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: montserratbold_x8baa54a7;
+  src: url(assets/Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: montserratbold_x832bcff7;
+  src: url(assets/Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: montserratbold_x46ff1415;
+  src: url(assets/Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: montserratbold_x1b6abbac;
+  src: url(assets/Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: montserratbold_x31b71aa8;
+  src: url(assets/Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: montserratbold_x8998d083;
+  src: url(assets/Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: montserratbold_xd8280db2;
+  src: url(assets/Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: montserratbold_xa0c4ee73;
+  src: url(assets/Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: montserratbold_x83f6b72a;
+  src: url(assets/Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: montserratbold_xbab7895a;
+  src: url(assets/Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: montserratbold_x3bec8a85;
+  src: url(assets/Montserrat-Bold.otf);
+}
+
+@font-face {
+  font-family: montserratbold_xa5badf13;
+  src: url(assets/Montserrat-Bold.otf);
+}
+
+.coronavirus {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  overflow-x: auto;
+  overflow-y: auto;
+  background-color: rgba(255, 255, 255, 1);
+  width: 1920.00px;
+  height: 1080.00px;
+  left: 0px;
+  top: 0px;
+}
+
+.coronavirus .backgroundcomponent {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 1920.00px;
+  height: 1080.00px;
+  left: 0.00px;
+  top: 0.00px;
+}
+
+.coronavirus .backgroundcomponent .backgroundcolor {
+  position: absolute;
+  box-sizing: border-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(10, 4, 39, 1);
+  border-bottom-color: rgba(112, 112, 112, 1);
+  border-bottom-style: solid;
+  border-bottom-width: 1.00px;
+  border-left-color: rgba(112, 112, 112, 1);
+  border-left-style: solid;
+  border-left-width: 1.00px;
+  border-right-color: rgba(112, 112, 112, 1);
+  border-right-style: solid;
+  border-right-width: 1.00px;
+  border-top-color: rgba(112, 112, 112, 1);
+  border-top-style: solid;
+  border-top-width: 1.00px;
+  border-top-left-radius: 0.00px;
+  border-top-right-radius: 0.00px;
+  border-bottom-left-radius: 0.00px;
+  border-bottom-right-radius: 0.00px;
+  box-shadow: none;
+  width: 1920.00px;
+  height: 1080.00px;
+  left: 0.00px;
+  top: 0.00px;
+}
+
+.coronavirus .footercomponent {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 768.00px;
+  height: 107.50px;
+  left: 543.50px;
+  top: 923.00px;
+}
+
+.coronavirus .footercomponent .contactcomponent {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 490.00px;
+  height: 91.00px;
+  left: 256.50px;
+  top: 16.50px;
+}
+
+.coronavirus .footercomponent .contactcomponent .contactnumber {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 398.00px;
+  height: 91.00px;
+  left: 92.00px;
+  top: 0.00px;
+}
+
+.coronavirus .footercomponent .contactcomponent .contactnumber .x88019443332228801937000011880193711001188019277117848801927711785 {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  line-height: 18.00px;
+  letter-spacing: 0.00px;
+  color: rgba(255, 255, 255, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 15.00px;
+  font-weight: 300;
+  font-style: normal;
+  font-family: montserrat_extralight, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 120.00px;
+  height: 91.00px;
+  left: 0.00px;
+  top: 9.50px;
+}
+
+.coronavirus .footercomponent .contactcomponent .contactnumber .x88019443332228801937000011880193711001188019277117848801927711785 .x88019443332228801937000011880193711001188019277117848801927711785-0 {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 300;
+  font-style: normal;
+  font-size: 30.00px;
+  font-family: montserrat_extralight, Arial;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+
+.coronavirus .footercomponent .contactcomponent .contactnumber .x88019443332228801937000011880193711001188019277117848801927711785 .x88019443332228801937000011880193711001188019277117848801927711785-0 {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15.00px;
+  font-family: montserrat_extralight, Arial;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+
+.coronavirus .footercomponent .contactcomponent .contactnumber .x88014011845518801401184554880140118455588014011845568801401184559 {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  line-height: 18.00px;
+  letter-spacing: 0.00px;
+  color: rgba(255, 255, 255, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 15.00px;
+  font-weight: 300;
+  font-style: normal;
+  font-family: montserrat_extralight, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 118.00px;
+  height: 91.00px;
+  left: 138.00px;
+  top: 9.50px;
+}
+
+.coronavirus .footercomponent .contactcomponent .contactnumber .x88014011845518801401184554880140118455588014011845568801401184559 .x88014011845518801401184554880140118455588014011845568801401184559-0 {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 300;
+  font-style: normal;
+  font-size: 30.00px;
+  font-family: montserrat_extralight, Arial;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+
+.coronavirus .footercomponent .contactcomponent .contactnumber .x88014011845518801401184554880140118455588014011845568801401184559 .x88014011845518801401184554880140118455588014011845568801401184559-0 {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15.00px;
+  font-family: montserrat_extralight, Arial;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+
+.coronavirus .footercomponent .contactcomponent .contactnumber .x88015500649018801550064902880155006490388015500649048801550064905 {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  line-height: 18.00px;
+  letter-spacing: 0.00px;
+  color: rgba(255, 255, 255, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 15.00px;
+  font-weight: 300;
+  font-style: normal;
+  font-family: montserrat_extralight, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 126.00px;
+  height: 91.00px;
+  left: 272.00px;
+  top: 9.50px;
+}
+
+.coronavirus .footercomponent .contactcomponent .contactnumber .x88015500649018801550064902880155006490388015500649048801550064905 .x88015500649018801550064902880155006490388015500649048801550064905-0 {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 300;
+  font-style: normal;
+  font-size: 30.00px;
+  font-family: montserrat_extralight, Arial;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+
+.coronavirus .footercomponent .contactcomponent .contactnumber .x88015500649018801550064902880155006490388015500649048801550064905 .x88015500649018801550064902880155006490388015500649048801550064905-0 {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15.00px;
+  font-family: montserrat_extralight, Arial;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+
+.coronavirus .footercomponent .contactcomponent .contact {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  line-height: 23.00px;
+  letter-spacing: 0.00px;
+  color: rgba(191, 163, 246, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 19.00px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: montserrat_bold, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 78.00px;
+  height: 23.00px;
+  left: 0.00px;
+  top: 33.00px;
+}
+
+.coronavirus .footercomponent .linkcomponent {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 201.00px;
+  height: 57.00px;
+  left: 11.50px;
+  top: 34.50px;
+}
+
+.coronavirus .footercomponent .linkcomponent .linkwho {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 84.00px;
+  height: 57.00px;
+  left: 54.00px;
+  top: 0.00px;
+}
+
+.coronavirus .footercomponent .linkcomponent .linkwho .worldHealthOrganization {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  line-height: 8.00px;
+  letter-spacing: 0.00px;
+  color: rgba(255, 255, 255, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 6.00px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: montserratbold_x2c3d0f64, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 84.00px;
+  height: 8.00px;
+  left: 0.00px;
+  top: 49.00px;
+}
+
+.coronavirus .footercomponent .linkcomponent .linkwho .whologo {
+  position: absolute;
+  box-sizing: border-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  background-image: url("assets/whologo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom-color: rgba(0, 0, 0, 0);
+  border-bottom-style: solid;
+  border-bottom-width: 1.00px;
+  border-left-color: rgba(0, 0, 0, 0);
+  border-left-style: solid;
+  border-left-width: 1.00px;
+  border-right-color: rgba(0, 0, 0, 0);
+  border-right-style: solid;
+  border-right-width: 1.00px;
+  border-top-color: rgba(0, 0, 0, 0);
+  border-top-style: solid;
+  border-top-width: 1.00px;
+  border-top-left-radius: 0.00px;
+  border-top-right-radius: 0.00px;
+  border-bottom-left-radius: 0.00px;
+  border-bottom-right-radius: 0.00px;
+  box-shadow: none;
+  width: 47.00px;
+  height: 47.00px;
+  left: 19.00px;
+  top: 0.00px;
+}
+
+.coronavirus .footercomponent .linkcomponent .linkiedcr {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 47.00px;
+  height: 57.00px;
+  left: 154.00px;
+  top: 0.00px;
+}
+
+.coronavirus .footercomponent .linkcomponent .linkiedcr .iedcrlogo {
+  position: absolute;
+  box-sizing: border-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  background-image: url("assets/iedcrlogo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom-color: rgba(0, 0, 0, 0);
+  border-bottom-style: solid;
+  border-bottom-width: 1.00px;
+  border-left-color: rgba(0, 0, 0, 0);
+  border-left-style: solid;
+  border-left-width: 1.00px;
+  border-right-color: rgba(0, 0, 0, 0);
+  border-right-style: solid;
+  border-right-width: 1.00px;
+  border-top-color: rgba(0, 0, 0, 0);
+  border-top-style: solid;
+  border-top-width: 1.00px;
+  border-top-left-radius: 0.00px;
+  border-top-right-radius: 0.00px;
+  border-bottom-left-radius: 0.00px;
+  border-bottom-right-radius: 0.00px;
+  box-shadow: none;
+  width: 47.00px;
+  height: 47.00px;
+  left: 0.00px;
+  top: 0.00px;
+}
+
+.coronavirus .footercomponent .linkcomponent .linkiedcr .iedcr {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  line-height: 8.00px;
+  letter-spacing: 0.00px;
+  color: rgba(255, 255, 255, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 6.00px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: montserratbold_xb6c7e566, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 20.00px;
+  height: 8.00px;
+  left: 14.00px;
+  top: 49.00px;
+}
+
+.coronavirus .footercomponent .linkcomponent .links {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  line-height: 23.00px;
+  letter-spacing: 0.00px;
+  color: rgba(191, 163, 246, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 19.00px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: montserrat_bold, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 52.00px;
+  height: 23.00px;
+  left: 0.00px;
+  top: 15.00px;
+}
+
+.coronavirus .footercomponent .divider {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  stroke: rgba(255, 255, 255, 1);
+  stroke-width: 1.00px;
+  stroke-linecap: butt;
+  box-shadow: none;
+  width: 768.00px;
+  height: 1.00px;
+  left: 0.00px;
+  top: -0.50px;
+}
+
+.coronavirus .symptomspreventioncomponent {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 650.93px;
+  height: 161.33px;
+  left: 613.00px;
+  top: 741.00px;
+}
+
+.coronavirus .symptomspreventioncomponent .symptomscomponent {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 276.14px;
+  height: 140.75px;
+  left: 0.00px;
+  top: 0.00px;
+}
+
+.coronavirus .symptomspreventioncomponent .symptomscomponent .coughcomponent {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 80.87px;
+  height: 94.96px;
+  left: 0.00px;
+  top: 45.78px;
+}
+
+.coronavirus .symptomspreventioncomponent .symptomscomponent .coughcomponent .coughicon {
+  position: absolute;
+  box-sizing: border-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  background-image: url("assets/coughicon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom-color: rgba(0, 0, 0, 0);
+  border-bottom-style: solid;
+  border-bottom-width: 1.00px;
+  border-left-color: rgba(0, 0, 0, 0);
+  border-left-style: solid;
+  border-left-width: 1.00px;
+  border-right-color: rgba(0, 0, 0, 0);
+  border-right-style: solid;
+  border-right-width: 1.00px;
+  border-top-color: rgba(0, 0, 0, 0);
+  border-top-style: solid;
+  border-top-width: 1.00px;
+  border-top-left-radius: 0.00px;
+  border-top-right-radius: 0.00px;
+  border-bottom-left-radius: 0.00px;
+  border-bottom-right-radius: 0.00px;
+  box-shadow: none;
+  width: 80.87px;
+  height: 81.73px;
+  left: 0.00px;
+  top: 0.00px;
+}
+
+.coronavirus .symptomspreventioncomponent .symptomscomponent .coughcomponent .cough {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  line-height: 11.00px;
+  letter-spacing: 0.00px;
+  color: rgba(255, 255, 255, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 9.00px;
+  font-weight: 300;
+  font-style: normal;
+  font-family: montserrat_extralight, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 36.00px;
+  height: 11.00px;
+  left: 20.91px;
+  top: 83.96px;
+}
+
+.coronavirus .symptomspreventioncomponent .symptomscomponent .fevercomponent {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 90.41px;
+  height: 94.80px;
+  left: 88.00px;
+  top: 45.78px;
+}
+
+.coronavirus .symptomspreventioncomponent .symptomscomponent .fevercomponent .fevericon {
+  position: absolute;
+  box-sizing: border-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  background-image: url("assets/fevericon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom-color: rgba(0, 0, 0, 0);
+  border-bottom-style: solid;
+  border-bottom-width: 1.00px;
+  border-left-color: rgba(0, 0, 0, 0);
+  border-left-style: solid;
+  border-left-width: 1.00px;
+  border-right-color: rgba(0, 0, 0, 0);
+  border-right-style: solid;
+  border-right-width: 1.00px;
+  border-top-color: rgba(0, 0, 0, 0);
+  border-top-style: solid;
+  border-top-width: 1.00px;
+  border-top-left-radius: 0.00px;
+  border-top-right-radius: 0.00px;
+  border-bottom-left-radius: 0.00px;
+  border-bottom-right-radius: 0.00px;
+  box-shadow: none;
+  width: 90.41px;
+  height: 84.16px;
+  left: 0.00px;
+  top: 0.00px;
+}
+
+.coronavirus .symptomspreventioncomponent .symptomscomponent .fevercomponent .fever {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  line-height: 11.00px;
+  letter-spacing: 0.00px;
+  color: rgba(255, 255, 255, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 9.00px;
+  font-weight: 300;
+  font-style: normal;
+  font-family: montserrat_extralight, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 30.00px;
+  height: 11.00px;
+  left: 28.24px;
+  top: 83.80px;
+}
+
+.coronavirus .symptomspreventioncomponent .symptomscomponent .shortbreathcomponent {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 88.14px;
+  height: 97.90px;
+  left: 188.00px;
+  top: 42.78px;
+}
+
+.coronavirus .symptomspreventioncomponent .symptomscomponent .shortbreathcomponent .shortOfBreath {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  line-height: 11.00px;
+  letter-spacing: 0.00px;
+  color: rgba(255, 255, 255, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 9.00px;
+  font-weight: 300;
+  font-style: normal;
+  font-family: montserrat_extralight, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 86.00px;
+  height: 11.00px;
+  left: 0.00px;
+  top: 86.90px;
+}
+
+.coronavirus .symptomspreventioncomponent .symptomscomponent .shortbreathcomponent .shortbreathicon {
+  position: absolute;
+  box-sizing: border-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  background-image: url("assets/shortbreathicon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom-color: rgba(0, 0, 0, 0);
+  border-bottom-style: solid;
+  border-bottom-width: 1.00px;
+  border-left-color: rgba(0, 0, 0, 0);
+  border-left-style: solid;
+  border-left-width: 1.00px;
+  border-right-color: rgba(0, 0, 0, 0);
+  border-right-style: solid;
+  border-right-width: 1.00px;
+  border-top-color: rgba(0, 0, 0, 0);
+  border-top-style: solid;
+  border-top-width: 1.00px;
+  border-top-left-radius: 0.00px;
+  border-top-right-radius: 0.00px;
+  border-bottom-left-radius: 0.00px;
+  border-bottom-right-radius: 0.00px;
+  box-shadow: none;
+  width: 86.32px;
+  height: 88.63px;
+  left: 1.82px;
+  top: 0.00px;
+}
+
+.coronavirus .symptomspreventioncomponent .symptomscomponent .symptoms {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  line-height: 34.11px;
+  letter-spacing: 0.00px;
+  color: rgba(255, 255, 255, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 28.42px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: montserratbold_x2b576d54, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 170.00px;
+  height: 35.00px;
+  left: 47.83px;
+  top: 0.45px;
+}
+
+.coronavirus .symptomspreventioncomponent .preventioncomponent {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 289.51px;
+  height: 161.33px;
+  left: 361.42px;
+  top: 0.00px;
+}
+
+.coronavirus .symptomspreventioncomponent .preventioncomponent .washhandcomponent {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 108.00px;
+  height: 118.55px;
+  left: 0.00px;
+  top: 42.79px;
+}
+
+.coronavirus .symptomspreventioncomponent .preventioncomponent .washhandcomponent .washhandicon {
+  position: absolute;
+  box-sizing: border-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  background-image: url("assets/washhandicon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom-color: rgba(0, 0, 0, 0);
+  border-bottom-style: solid;
+  border-bottom-width: 1.00px;
+  border-left-color: rgba(0, 0, 0, 0);
+  border-left-style: solid;
+  border-left-width: 1.00px;
+  border-right-color: rgba(0, 0, 0, 0);
+  border-right-style: solid;
+  border-right-width: 1.00px;
+  border-top-color: rgba(0, 0, 0, 0);
+  border-top-style: solid;
+  border-top-width: 1.00px;
+  border-top-left-radius: 0.00px;
+  border-top-right-radius: 0.00px;
+  border-bottom-left-radius: 0.00px;
+  border-bottom-right-radius: 0.00px;
+  box-shadow: none;
+  width: 74.45px;
+  height: 85.14px;
+  left: 11.99px;
+  top: 0.00px;
+}
+
+.coronavirus .symptomspreventioncomponent .preventioncomponent .washhandcomponent .frequentlywashYourHands {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  line-height: 12.60px;
+  letter-spacing: 0.00px;
+  color: rgba(255, 255, 255, 1);
+  -webkit-text-stroke: 1.00px rgba(238, 59, 59, 0);
+  font-size: 10.50px;
+  font-weight: 300;
+  font-style: normal;
+  font-family: montserrat_extralight, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 108.00px;
+  height: 26.00px;
+  left: 0.00px;
+  top: 92.75px;
+}
+
+.coronavirus .symptomspreventioncomponent .preventioncomponent .avoidtouchingfacecomponent {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 90.00px;
+  height: 118.55px;
+  left: 115.60px;
+  top: 42.78px;
+}
+
+.coronavirus .symptomspreventioncomponent .preventioncomponent .avoidtouchingfacecomponent .avoidtouchingfaceicon {
+  position: absolute;
+  box-sizing: border-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  background-image: url("assets/avoidtouchingfaceicon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom-color: rgba(0, 0, 0, 0);
+  border-bottom-style: solid;
+  border-bottom-width: 1.00px;
+  border-left-color: rgba(0, 0, 0, 0);
+  border-left-style: solid;
+  border-left-width: 1.00px;
+  border-right-color: rgba(0, 0, 0, 0);
+  border-right-style: solid;
+  border-right-width: 1.00px;
+  border-top-color: rgba(0, 0, 0, 0);
+  border-top-style: solid;
+  border-top-width: 1.00px;
+  border-top-left-radius: 0.00px;
+  border-top-right-radius: 0.00px;
+  border-bottom-left-radius: 0.00px;
+  border-bottom-right-radius: 0.00px;
+  box-shadow: none;
+  width: 72.37px;
+  height: 85.15px;
+  left: 3.03px;
+  top: 0.00px;
+}
+
+.coronavirus .symptomspreventioncomponent .preventioncomponent .avoidtouchingfacecomponent .avoidTouchingFace {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  line-height: 12.60px;
+  letter-spacing: 0.00px;
+  color: rgba(255, 255, 255, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 10.50px;
+  font-weight: 300;
+  font-style: normal;
+  font-family: montserrat_extralight, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 90.00px;
+  height: 26.00px;
+  left: 0.00px;
+  top: 92.75px;
+}
+
+.coronavirus .symptomspreventioncomponent .preventioncomponent .wearmaskcomponent {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 66.00px;
+  height: 103.32px;
+  left: 223.51px;
+  top: 45.01px;
+}
+
+.coronavirus .symptomspreventioncomponent .preventioncomponent .wearmaskcomponent .wearmaskicon {
+  position: absolute;
+  box-sizing: border-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  background-image: url("assets/wearmaskicon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom-color: rgba(0, 0, 0, 0);
+  border-bottom-style: solid;
+  border-bottom-width: 1.00px;
+  border-left-color: rgba(0, 0, 0, 0);
+  border-left-style: solid;
+  border-left-width: 1.00px;
+  border-right-color: rgba(0, 0, 0, 0);
+  border-right-style: solid;
+  border-right-width: 1.00px;
+  border-top-color: rgba(0, 0, 0, 0);
+  border-top-style: solid;
+  border-top-width: 1.00px;
+  border-top-left-radius: 0.00px;
+  border-top-right-radius: 0.00px;
+  border-bottom-left-radius: 0.00px;
+  border-bottom-right-radius: 0.00px;
+  box-shadow: none;
+  width: 61.47px;
+  height: 81.77px;
+  left: 2.07px;
+  top: 0.00px;
+}
+
+.coronavirus .symptomspreventioncomponent .preventioncomponent .wearmaskcomponent .wearMask {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  line-height: 12.60px;
+  letter-spacing: 0.00px;
+  color: rgba(255, 255, 255, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 10.50px;
+  font-weight: 300;
+  font-style: normal;
+  font-family: montserrat_extralight, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 66.00px;
+  height: 13.00px;
+  left: 0.00px;
+  top: 90.52px;
+}
+
+.coronavirus .symptomspreventioncomponent .preventioncomponent .prevention {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  line-height: 34.11px;
+  letter-spacing: 0.00px;
+  color: rgba(255, 255, 255, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 28.42px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: montserrat_extralight, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 197.00px;
+  height: 35.00px;
+  left: 54.41px;
+  top: 0.45px;
+}
+
+.coronavirus .patientinformationcomponent {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 626.85px;
+  height: 332.76px;
+  left: 613.34px;
+  top: 388.00px;
+}
+
+.coronavirus .patientinformationcomponent .dhakapatientcomponent {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 194.85px;
+  height: 332.76px;
+  left: 0.00px;
+  top: 0.00px;
+}
+
+.coronavirus .patientinformationcomponent .dhakapatientcomponent .glowrect09406bf5 {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  background-image: url("assets/glowrect09406bf5.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom-color: rgba(0, 0, 0, 0);
+  border-bottom-style: solid;
+  border-bottom-width: 1.00px;
+  border-left-color: rgba(0, 0, 0, 0);
+  border-left-style: solid;
+  border-left-width: 1.00px;
+  border-right-color: rgba(0, 0, 0, 0);
+  border-right-style: solid;
+  border-right-width: 1.00px;
+  border-top-color: rgba(0, 0, 0, 0);
+  border-top-style: solid;
+  border-top-width: 1.00px;
+  border-top-left-radius: 15.00px;
+  border-top-right-radius: 15.00px;
+  border-bottom-left-radius: 15.00px;
+  border-bottom-right-radius: 15.00px;
+  box-shadow: none;
+  -webkit-filter: blur(30px);
+  filter: blur(30px);
+  width: 184.99px;
+  height: 331.76px;
+  left: 8.36px;
+  top: -0.50px;
+}
+
+.coronavirus .patientinformationcomponent .dhakapatientcomponent .dhakarect {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  fill: rgba(255, 255, 255, 1);
+  stroke: rgba(0, 0, 0, 0);
+  stroke-width: 1.00px;
+  stroke-linecap: butt;
+  box-shadow: none;
+  width: 187.99px;
+  height: 221.39px;
+  left: -1.00px;
+  top: 103.66px;
+}
+
+.coronavirus .patientinformationcomponent .dhakapatientcomponent .dhakanumber {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  line-height: 52.00px;
+  letter-spacing: 0.00px;
+  color: rgba(191, 163, 246, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 43.00px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: montserrat_bold, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 158.00px;
+  height: 53.00px;
+  left: 13.66px;
+  top: 162.17px;
+}
+
+.coronavirus .patientinformationcomponent .dhakapatientcomponent .identifiedPatientsIndhaka {
+  position: absolute;
+  box-sizing: content-box;
+  text-align: left;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  line-height: 30.00px;
+  letter-spacing: 0.00px;
+  color: rgba(255, 255, 255, 1);
+  -webkit-text-stroke: 0.00px rgba(0, 0, 0, 0);
+  font-size: 30.00px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: montserrat_regular, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 126.00px;
+  height: 50.00px;
+  left: 20.66px;
+  top: 46.17px;
+}
+
+.coronavirus .patientinformationcomponent .dhakapatientcomponent .identifiedPatientsIndhaka .identifiedPatientsIndhaka-0 {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13.5px;
+  font-family: montserrat_regular, Arial;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+
+.coronavirus .patientinformationcomponent .dhakapatientcomponent .identifiedPatientsIndhaka .identifiedPatientsIndhaka-23 {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+  text-align: left;
+  font-style: normal;
+  font-size: 18.70px;
+  font-family: montserrat_regular, Arial;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+
+.coronavirus .patientinformationcomponent .dhakapatientcomponent .stayHome {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  line-height: 14.40px;
+  letter-spacing: 0.00px;
+  color: rgba(178, 145, 244, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 12.00px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: montserratblack_x82a8d65d, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 70.00px;
+  height: 15.00px;
+  left: 58.06px;
+  top: 263.97px;
+}
+
+.coronavirus .patientinformationcomponent .dhakapatientcomponent .circulardee5c9b5 {
+  position: absolute;
+  box-sizing: border-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  background-image: url("assets/circulardee5c9b5.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom-color: rgba(0, 0, 0, 0);
+  border-bottom-style: solid;
+  border-bottom-width: 1.00px;
+  border-left-color: rgba(0, 0, 0, 0);
+  border-left-style: solid;
+  border-left-width: 1.00px;
+  border-right-color: rgba(0, 0, 0, 0);
+  border-right-style: solid;
+  border-right-width: 1.00px;
+  border-top-color: rgba(0, 0, 0, 0);
+  border-top-style: solid;
+  border-top-width: 1.00px;
+  border-top-left-radius: 0.00px;
+  border-top-right-radius: 0.00px;
+  border-bottom-left-radius: 0.00px;
+  border-bottom-right-radius: 0.00px;
+  box-shadow: none;
+  width: 44.81px;
+  height: 4.40px;
+  left: 70.65px;
+  top: 286.74px;
+}
+
+.coronavirus .patientinformationcomponent .dhakacitypatientcomponent {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 194.99px;
+  height: 332.76px;
+  left: 215.67px;
+  top: 0.00px;
+}
+
+.coronavirus .patientinformationcomponent .dhakacitypatientcomponent .glowrect0936ac58 {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  background-image: url("assets/glowrect0936ac58.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom-color: rgba(0, 0, 0, 0);
+  border-bottom-style: solid;
+  border-bottom-width: 1.00px;
+  border-left-color: rgba(0, 0, 0, 0);
+  border-left-style: solid;
+  border-left-width: 1.00px;
+  border-right-color: rgba(0, 0, 0, 0);
+  border-right-style: solid;
+  border-right-width: 1.00px;
+  border-top-color: rgba(0, 0, 0, 0);
+  border-top-style: solid;
+  border-top-width: 1.00px;
+  border-top-left-radius: 15.00px;
+  border-top-right-radius: 15.00px;
+  border-bottom-left-radius: 15.00px;
+  border-bottom-right-radius: 15.00px;
+  box-shadow: none;
+  -webkit-filter: blur(30px);
+  filter: blur(30px);
+  width: 184.99px;
+  height: 331.76px;
+  left: 8.49px;
+  top: -0.50px;
+}
+
+.coronavirus .patientinformationcomponent .dhakacitypatientcomponent .identifiedPatientsIndhakaCity {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  line-height: 30.00px;
+  letter-spacing: 0.00px;
+  color: rgba(255, 255, 255, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 30.00px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: montserrat_regular, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 164.00px;
+  height: 50.00px;
+  left: 11.00px;
+  top: 46.17px;
+}
+
+.coronavirus .patientinformationcomponent .dhakacitypatientcomponent .identifiedPatientsIndhakaCity .identifiedPatientsIndhakaCity-0 {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13.50px;
+  font-family: montserrat_regular, Arial;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+
+.coronavirus .patientinformationcomponent .dhakacitypatientcomponent .identifiedPatientsIndhakaCity .identifiedPatientsIndhakaCity-23 {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18.70px;
+  font-family: montserrat_regular, Arial;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+
+.coronavirus .patientinformationcomponent .dhakacitypatientcomponent .dhakacityrect {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  fill: rgba(255, 255, 255, 1);
+  stroke: rgba(0, 0, 0, 0);
+  stroke-width: 1.00px;
+  stroke-linecap: butt;
+  box-shadow: none;
+  width: 187.99px;
+  height: 221.76px;
+  left: -1.00px;
+  top: 103.30px;
+}
+
+.coronavirus .patientinformationcomponent .dhakacitypatientcomponent .x100000f3c831ff {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  line-height: 52.00px;
+  letter-spacing: 0.00px;
+  color: rgba(228, 119, 144, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 43.00px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: montserrat_bold, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 158.00px;
+  height: 53.00px;
+  left: 19.00px;
+  top: 162.17px;
+}
+
+.coronavirus .patientinformationcomponent .dhakacitypatientcomponent .circularc503c4b1 {
+  position: absolute;
+  box-sizing: border-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  background-image: url("assets/circularc503c4b1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom-color: rgba(0, 0, 0, 0);
+  border-bottom-style: solid;
+  border-bottom-width: 1.00px;
+  border-left-color: rgba(0, 0, 0, 0);
+  border-left-style: solid;
+  border-left-width: 1.00px;
+  border-right-color: rgba(0, 0, 0, 0);
+  border-right-style: solid;
+  border-right-width: 1.00px;
+  border-top-color: rgba(0, 0, 0, 0);
+  border-top-style: solid;
+  border-top-width: 1.00px;
+  border-top-left-radius: 0.00px;
+  border-top-right-radius: 0.00px;
+  border-bottom-left-radius: 0.00px;
+  border-bottom-right-radius: 0.00px;
+  box-shadow: none;
+  width: 114.00px;
+  height: 27.47px;
+  left: 36.06px;
+  top: 263.67px;
+}
+
+.coronavirus .patientinformationcomponent .bangladeshpatientcomponent {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 195.18px;
+  height: 332.76px;
+  left: 431.66px;
+  top: 0.00px;
+}
+
+.coronavirus .patientinformationcomponent .bangladeshpatientcomponent .glowrect {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  background-image: url("assets/glowrect.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(0, 0, 0, 0);
+  border-bottom-color: rgba(0, 0, 0, 0);
+  border-bottom-style: solid;
+  border-bottom-width: 1.00px;
+  border-left-color: rgba(0, 0, 0, 0);
+  border-left-style: solid;
+  border-left-width: 1.00px;
+  border-right-color: rgba(0, 0, 0, 0);
+  border-right-style: solid;
+  border-right-width: 1.00px;
+  border-top-color: rgba(0, 0, 0, 0);
+  border-top-style: solid;
+  border-top-width: 1.00px;
+  border-top-left-radius: 15.00px;
+  border-top-right-radius: 15.00px;
+  border-bottom-left-radius: 15.00px;
+  border-bottom-right-radius: 15.00px;
+  box-shadow: none;
+  -webkit-filter: blur(30px);
+  filter: blur(30px);
+  width: 184.99px;
+  height: 331.76px;
+  left: 8.69px;
+  top: -0.50px;
+}
+
+.coronavirus .patientinformationcomponent .bangladeshpatientcomponent .bangladeshrect {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  fill: rgba(255, 255, 255, 1);
+  stroke: rgba(0, 0, 0, 0);
+  stroke-width: 1.00px;
+  stroke-linecap: butt;
+  box-shadow: none;
+  width: 187.99px;
+  height: 221.76px;
+  left: -1.00px;
+  top: 103.30px;
+}
+
+.coronavirus .patientinformationcomponent .bangladeshpatientcomponent .contactIedcr16263 {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  line-height: 14.40px;
+  letter-spacing: 0.00px;
+  color: rgba(255, 164, 92, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 12.00px;
+  font-weight: 300;
+  font-style: normal;
+  font-family: montserratblack_x82a8d65d, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 154.00px;
+  height: 15.00px;
+  left: 15.99px;
+  top: 263.97px;
+}
+
+.coronavirus .patientinformationcomponent .bangladeshpatientcomponent .identifiedPatientsInbangladesh {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  line-height: 30.00px;
+  letter-spacing: 0.00px;
+  color: rgba(255, 255, 255, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 30.00px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: montserrat_regular, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 180.00px;
+  height: 50.00px;
+  left: 3.00px;
+  top: 46.17px;
+}
+
+.coronavirus .patientinformationcomponent .bangladeshpatientcomponent .identifiedPatientsInbangladesh .identifiedPatientsInbangladesh-0 {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13.50px;
+  font-family: montserrat_regular, Arial;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+
+.coronavirus .patientinformationcomponent .bangladeshpatientcomponent .identifiedPatientsInbangladesh .identifiedPatientsInbangladesh-23 {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18.70px;
+  font-family: bol, Arial;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+
+.coronavirus .patientinformationcomponent .bangladeshpatientcomponent .circular {
+  position: absolute;
+  box-sizing: border-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  background-image: url("assets/circular.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom-color: rgba(0, 0, 0, 0);
+  border-bottom-style: solid;
+  border-bottom-width: 1.00px;
+  border-left-color: rgba(0, 0, 0, 0);
+  border-left-style: solid;
+  border-left-width: 1.00px;
+  border-right-color: rgba(0, 0, 0, 0);
+  border-right-style: solid;
+  border-right-width: 1.00px;
+  border-top-color: rgba(0, 0, 0, 0);
+  border-top-style: solid;
+  border-top-width: 1.00px;
+  border-top-left-radius: 0.00px;
+  border-top-right-radius: 0.00px;
+  border-bottom-left-radius: 0.00px;
+  border-bottom-right-radius: 0.00px;
+  box-shadow: none;
+  width: 44.81px;
+  height: 4.40px;
+  left: 70.59px;
+  top: 286.74px;
+}
+
+.coronavirus .patientinformationcomponent .bangladeshpatientcomponent .x100000 {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  line-height: 52.00px;
+  letter-spacing: 0.00px;
+  color: rgba(255, 164, 92, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 43.00px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: montserrat_bold, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 158.00px;
+  height: 53.00px;
+  left: 13.00px;
+  top: 162.17px;
+}
+
+.coronavirus .spreadinfographiccomponent {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 575.18px;
+  height: 186.50px;
+  left: 634.79px;
+  top: 181.00px;
+}
+
+.coronavirus .spreadinfographiccomponent .virusinfocomponent {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 136.75px;
+  height: 142.66px;
+  left: 155.65px;
+  top: 40.33px;
+}
+
+.coronavirus .spreadinfographiccomponent .virusinfocomponent .virusiconwithbackground {
+  position: absolute;
+  box-sizing: border-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  background-image: url("assets/virusiconwithbackground.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom-color: rgba(0, 0, 0, 0);
+  border-bottom-style: solid;
+  border-bottom-width: 1.00px;
+  border-left-color: rgba(0, 0, 0, 0);
+  border-left-style: solid;
+  border-left-width: 1.00px;
+  border-right-color: rgba(0, 0, 0, 0);
+  border-right-style: solid;
+  border-right-width: 1.00px;
+  border-top-color: rgba(0, 0, 0, 0);
+  border-top-style: solid;
+  border-top-width: 1.00px;
+  border-top-left-radius: 0.00px;
+  border-top-right-radius: 0.00px;
+  border-bottom-left-radius: 0.00px;
+  border-bottom-right-radius: 0.00px;
+  box-shadow: none;
+  width: 136.75px;
+  height: 107.55px;
+  left: 0.00px;
+  top: 0.00px;
+}
+
+.coronavirus .spreadinfographiccomponent .virusinfocomponent .virusicon {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 72.00px;
+  height: 32.33px;
+  left: 20.34px;
+  top: 110.34px;
+}
+
+.coronavirus .spreadinfographiccomponent .virusinfocomponent .virusicon .whenTinyDropletsremainInTheAir {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  line-height: 8.00px;
+  letter-spacing: 0.00px;
+  color: rgba(255, 255, 255, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 6.00px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: montserratbold_xf5fc7246, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 72.00px;
+  height: 16.00px;
+  left: 0.00px;
+  top: 16.33px;
+}
+
+.coronavirus .spreadinfographiccomponent .virusinfocomponent .virusicon .virusMaySpread {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  line-height: 8.00px;
+  letter-spacing: 0.00px;
+  color: rgba(255, 255, 255, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 6.00px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: montserratbold_x48906b22, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 63.00px;
+  height: 8.00px;
+  left: 5.66px;
+  top: 0.00px;
+}
+
+.coronavirus .spreadinfographiccomponent .virusinfocomponent .virusicon .throughAirborne {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  line-height: 8.00px;
+  letter-spacing: 0.00px;
+  color: rgba(255, 138, 101, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 6.00px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: montserratbold_xa6bd952d, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 68.00px;
+  height: 8.00px;
+  left: 2.41px;
+  top: 8.28px;
+}
+
+.coronavirus .spreadinfographiccomponent .spreadinfocomponent {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 133.18px;
+  height: 137.76px;
+  left: 0.00px;
+  top: 42.33px;
+}
+
+.coronavirus .spreadinfographiccomponent .spreadinfocomponent .spreadtext {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 68.91px;
+  height: 33.48px;
+  left: 27.10px;
+  top: 104.28px;
+}
+
+.coronavirus .spreadinfographiccomponent .spreadinfocomponent .spreadtext .virusSpreadFrom {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  line-height: 8.00px;
+  letter-spacing: 0.00px;
+  color: rgba(255, 255, 255, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 6.00px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: montserratbold_x19c65ad3, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 68.00px;
+  height: 8.00px;
+  left: 0.91px;
+  top: 0.00px;
+}
+
+.coronavirus .spreadinfographiccomponent .spreadinfocomponent .spreadtext .troughDroplets {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  line-height: 8.00px;
+  letter-spacing: 0.00px;
+  color: rgba(255, 255, 255, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 6.00px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: montserratbold_x63513c46, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 63.00px;
+  height: 8.00px;
+  left: 3.95px;
+  top: 25.48px;
+}
+
+.coronavirus .spreadinfographiccomponent .spreadinfocomponent .spreadtext .closePersonToPersonContact {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  line-height: 8.00px;
+  letter-spacing: 0.00px;
+  color: rgba(255, 138, 101, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 6.00px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: montserratbold_x56441318, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 68.00px;
+  height: 16.00px;
+  left: 0.00px;
+  top: 8.36px;
+}
+
+.coronavirus .spreadinfographiccomponent .spreadinfocomponent .spreadiconwithbackground {
+  position: absolute;
+  box-sizing: border-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  background-image: url("assets/spreadiconwithbackground.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom-color: rgba(0, 0, 0, 0);
+  border-bottom-style: solid;
+  border-bottom-width: 1.00px;
+  border-left-color: rgba(0, 0, 0, 0);
+  border-left-style: solid;
+  border-left-width: 1.00px;
+  border-right-color: rgba(0, 0, 0, 0);
+  border-right-style: solid;
+  border-right-width: 1.00px;
+  border-top-color: rgba(0, 0, 0, 0);
+  border-top-style: solid;
+  border-top-width: 1.00px;
+  border-top-left-radius: 0.00px;
+  border-top-right-radius: 0.00px;
+  border-bottom-left-radius: 0.00px;
+  border-bottom-right-radius: 0.00px;
+  box-shadow: none;
+  width: 133.18px;
+  height: 98.64px;
+  left: 0.00px;
+  top: 0.00px;
+}
+
+.coronavirus .spreadinfographiccomponent .calenderinfocomponent {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 119.92px;
+  height: 149.16px;
+  left: 318.81px;
+  top: 37.33px;
+}
+
+.coronavirus .spreadinfographiccomponent .calenderinfocomponent .calendericonwithbackground {
+  position: absolute;
+  box-sizing: border-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  background-image: url("assets/calendericonwithbackground.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom-color: rgba(0, 0, 0, 0);
+  border-bottom-style: solid;
+  border-bottom-width: 1.00px;
+  border-left-color: rgba(0, 0, 0, 0);
+  border-left-style: solid;
+  border-left-width: 1.00px;
+  border-right-color: rgba(0, 0, 0, 0);
+  border-right-style: solid;
+  border-right-width: 1.00px;
+  border-top-color: rgba(0, 0, 0, 0);
+  border-top-style: solid;
+  border-top-width: 1.00px;
+  border-top-left-radius: 0.00px;
+  border-top-right-radius: 0.00px;
+  border-bottom-left-radius: 0.00px;
+  border-bottom-right-radius: 0.00px;
+  box-shadow: none;
+  width: 119.92px;
+  height: 112.66px;
+  left: 0.00px;
+  top: 0.00px;
+}
+
+.coronavirus .spreadinfographiccomponent .calenderinfocomponent .calendertext {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 64.00px;
+  height: 34.21px;
+  left: 16.71px;
+  top: 114.95px;
+}
+
+.coronavirus .spreadinfographiccomponent .calenderinfocomponent .calendertext .symptomsMaydevelopWithin14daysOfExposure {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  line-height: 8.00px;
+  letter-spacing: 0.00px;
+  color: rgba(255, 138, 101, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 6.00px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: montserratbold_x9f2bddb4, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 64.00px;
+  height: 24.00px;
+  left: 0.00px;
+  top: 0.00px;
+}
+
+.coronavirus .spreadinfographiccomponent .calenderinfocomponent .calendertext .toTheIllness {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  line-height: 8.00px;
+  letter-spacing: 0.00px;
+  color: rgba(255, 255, 255, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 6.00px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: montserratbold_xc182e1bc, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 50.00px;
+  height: 8.00px;
+  left: 8.84px;
+  top: 26.21px;
+}
+
+.coronavirus .spreadinfographiccomponent .labinfocomponent {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 116.16px;
+  height: 132.33px;
+  left: 459.01px;
+  top: 45.33px;
+}
+
+.coronavirus .spreadinfographiccomponent .labinfocomponent .labiconwithbackground {
+  position: absolute;
+  box-sizing: border-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  background-image: url("assets/labiconwithbackground.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom-color: rgba(0, 0, 0, 0);
+  border-bottom-style: solid;
+  border-bottom-width: 1.00px;
+  border-left-color: rgba(0, 0, 0, 0);
+  border-left-style: solid;
+  border-left-width: 1.00px;
+  border-right-color: rgba(0, 0, 0, 0);
+  border-right-style: solid;
+  border-right-width: 1.00px;
+  border-top-color: rgba(0, 0, 0, 0);
+  border-top-style: solid;
+  border-top-width: 1.00px;
+  border-top-left-radius: 0.00px;
+  border-top-right-radius: 0.00px;
+  border-bottom-left-radius: 0.00px;
+  border-bottom-right-radius: 0.00px;
+  box-shadow: none;
+  width: 116.16px;
+  height: 95.62px;
+  left: 0.00px;
+  top: 0.00px;
+}
+
+.coronavirus .spreadinfographiccomponent .labinfocomponent .labtext {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 66.00px;
+  height: 34.31px;
+  left: 29.20px;
+  top: 98.02px;
+}
+
+.coronavirus .spreadinfographiccomponent .labinfocomponent .labtext .designatedLabtestCanDiagnose {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  line-height: 8.00px;
+  letter-spacing: 0.00px;
+  color: rgba(255, 138, 101, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 6.00px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: montserratbold_xd247d4f0, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 66.00px;
+  height: 16.00px;
+  left: 0.00px;
+  top: 8.22px;
+}
+
+.coronavirus .spreadinfographiccomponent .labinfocomponent .labtext .theVirus {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  line-height: 8.00px;
+  letter-spacing: 0.00px;
+  color: rgba(255, 255, 255, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 6.00px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: montserratbold_x6c4059e8, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 34.00px;
+  height: 8.00px;
+  left: 16.00px;
+  top: 26.31px;
+}
+
+.coronavirus .spreadinfographiccomponent .labinfocomponent .labtext .only {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+  line-height: 8.00px;
+  letter-spacing: 0.00px;
+  color: rgba(255, 255, 255, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 6.00px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: montserratbold_xa2249b71, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 18.00px;
+  height: 8.00px;
+  left: 24.00px;
+  top: 0.00px;
+}
+
+.coronavirus .spreadinfographiccomponent .howDoesItSpread {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  line-height: 34.11px;
+  letter-spacing: 0.00px;
+  color: rgba(255, 255, 255, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 28.42px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: montserratbold_x573ca33e, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 355.00px;
+  height: 35.00px;
+  left: 115.21px;
+  top: 0.45px;
+}
+
+.coronavirus .headercomponent {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 299.00px;
+  height: 111.00px;
+  left: 778.00px;
+  top: 50.00px;
+}
+
+.coronavirus .headercomponent .covid19 {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  letter-spacing: 0.00px;
+  color: rgba(255, 255, 255, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 64.00px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: montserrat_regular, Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 299.00px;
+  height: 78.00px;
+  left: 0.00px;
+  top: 0.00px;
+}
+
+.coronavirus .headercomponent .bangladeshflagico {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  background-image: url("assets/bangladeshflagico.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom-color: rgba(112, 112, 112, 1);
+  border-bottom-style: none;
+  border-bottom-width: 1.00px;
+  border-left-color: rgba(112, 112, 112, 1);
+  border-left-style: none;
+  border-left-width: 1.00px;
+  border-right-color: rgba(112, 112, 112, 1);
+  border-right-style: none;
+  border-right-width: 1.00px;
+  border-top-color: rgba(112, 112, 112, 1);
+  border-top-style: none;
+  border-top-width: 1.00px;
+  border-top-left-radius: 0.00px;
+  border-top-right-radius: 0.00px;
+  border-bottom-left-radius: 0.00px;
+  border-bottom-right-radius: 0.00px;
+  box-shadow: none;
+  width: 74.00px;
+  height: 44.00px;
+  left: 112.00px;
+  top: 67.00px;
+}

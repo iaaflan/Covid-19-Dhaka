@@ -30,7 +30,7 @@ yarn start
 
 ## Screenshot
 
-- ![](https://ibb.co/gTB5MHW)
+- (https://ibb.co/gTB5MHW)
 
 ## Authors
 
